@@ -1,0 +1,14 @@
+.header {
+
+}
+
+.header__title{
+    margin: 96px auto 77px 160px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    /* identical to box height, or 128% */
+    color: var(--black);
+}
