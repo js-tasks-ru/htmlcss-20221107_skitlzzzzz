@@ -1,0 +1,39 @@
+header {
+    background-color: #F784AD;
+}
+
+header > h1 {
+    margin-left: 40px;
+    padding-top: 40px;
+    color: darkslateblue;
+}
+
+nav {
+    background-color: #B9798F;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+
+main {
+    background-color: white;
+}
+
+article {
+    background-color: #FBBBD1;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #A12B54;
+    padding: 40px;
+}
+
+footer > h1 {
+    color: #F784AD;
+}
