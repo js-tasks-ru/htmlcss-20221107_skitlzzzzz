@@ -8,7 +8,6 @@
     padding: 15px 66px;
     height: 48px;
     cursor: pointer;
-    margin: 20px;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
@@ -19,7 +18,7 @@
 
 .button_primary {
     background-color: #4263EB;
-    color: white;
+    color: #FFFFFF;
     border: 1px solid #4263EB;
 }
 
@@ -29,7 +28,7 @@
 
 .button_secondary {
     background-color: var(--purple);
-    color: white;
+    color: #FFFFFF;
     border: 1px solid var(--purple);
 }
 
@@ -38,7 +37,7 @@
 }
 
 .button_alternate {
-    background-color: white;
+    background-color: #FFFFFF;
     color: var(--grey-4);
     border: 1px solid var(--grey-3);
 }
