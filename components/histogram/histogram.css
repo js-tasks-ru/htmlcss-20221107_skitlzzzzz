@@ -1,7 +1,7 @@
 .histogram{
     background-color: var(--white);
     border: 1px solid var(--grey-3);
-    width: 354px;
+    max-width: 354px;
     height: 185px;
 }
 
