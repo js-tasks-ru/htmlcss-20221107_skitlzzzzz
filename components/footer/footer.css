@@ -1,5 +1,7 @@
 .footer {
+    grid-area: footer;
     text-align: center;
+    padding: 96px 615px 56px;
 }
 
 .footer__title {
