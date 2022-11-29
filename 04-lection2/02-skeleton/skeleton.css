@@ -26,6 +26,7 @@
     flex-direction: column;
     margin-left: 24px;
     justify-content: space-around;
+    width: 100%;
 }
 
 .skeleton__line {
@@ -34,20 +35,21 @@
 }
 
 .skeleton__line_small{
-    width: 172px;
+    width: 35%;
 }
 
 .skeleton__line_middle{
-    width: 257px;
+    width: 55%;
 }
 
 .skeleton__line_big{
-    width: 515px;
+    width: 80%;
 }
 
 .skeleton__body{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
 }
 
