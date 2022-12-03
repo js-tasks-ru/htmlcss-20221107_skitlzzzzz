@@ -1,0 +1,26 @@
+
+
+.template {
+    font-family: 'Inter', Arial, sans-serif;
+    display: grid;
+    height: 100vh;
+    background: var(--lightgrey);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+}
+
+.template__main {
+    grid-area: main;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    grid-template-areas: "sidebar . content"
+                         "sidebar . content";
+}
+
+.template__content {
+    grid-area: content;
+}
