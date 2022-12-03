@@ -1,6 +1,7 @@
 .histogram{
     background-color: var(--white);
     border: 1px solid var(--grey-3);
+    border-radius: 8px;
 }
 
 .histogram__container{
@@ -50,7 +51,6 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: space-between;
     align-items: flex-end;
     height: 50px
 }
