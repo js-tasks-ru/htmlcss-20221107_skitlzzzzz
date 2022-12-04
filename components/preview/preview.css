@@ -1,4 +1,21 @@
 .preview {
-    height: 1036px;
-    background: #F9FAFC;
+    padding: 68px 0 205px;
+    display: grid;
+    grid-row-gap: 60px;
+    grid-column-gap: 30px;
+    grid: repeat(2, auto) / repeat(3, 350px);
+}
+
+@media screen and (min-width: 400px) {
+    .preview {
+        grid: repeat(3, auto) / repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
 }
