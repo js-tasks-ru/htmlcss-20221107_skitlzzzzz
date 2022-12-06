@@ -1,4 +1,33 @@
 .preview {
     height: 1036px;
-    background: #F9FAFC;
+    padding-top: 53px;
+    padding-bottom: 204px;
 }
+
+.preview__cards{
+    display: flex;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+
+
+
+
+
+/*inline-block style*/
+/*.preview__cards{*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.preview__card{*/
+/*    margin: 15px;*/
+/*}*/
+
+/*.preview__card:first-child{*/
+/*    margin-left: 0;*/
+/*}*/
+
+/*.preview__card:last-child{*/
+/*    margin-right: 0;*/
+/*}*/
