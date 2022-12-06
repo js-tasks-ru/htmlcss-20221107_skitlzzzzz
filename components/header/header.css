@@ -1,9 +1,12 @@
 .header {
+    padding: 96px 0 77px;
+}
 
+.header__logo {
+    margin: 0 0 41px;
 }
 
 .header__title{
-    margin: 96px 0 77px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
