@@ -1,4 +1,4 @@
-.wrapper {
+.text-field {
     position: relative;
     display: inline-block;
 }
@@ -42,10 +42,10 @@
     border: 1px solid #F03D3E;
 }
 
-.text__state_error {
+.text-field_error {
     color: #F03D3E;
 }
 
-.text__state_success {
+.text-field_success {
     color: #374FC7;
 }

@@ -6,10 +6,9 @@
     <link rel="stylesheet" href="./input.css">
 </head>
 <body>
-<div class="wrapper">
-    <label class="input">
+<div class="text-field">
         <span class="text__control">
-            <input type="text" class="text__input" placeholder="Placeholder">
+            <input type="text" class="text__input" placeholder="Placeholder" id="input-id1">
             <span class="text__state text__state_success">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -25,12 +24,11 @@
                 </svg>
             </span>
         </span>
-    </label>
+    <label class="input" for="input-id1"> </label>
 </div>
-<div class="wrapper">
-    <label class="input">
+<div class="text-field">
         <span class="text__control">
-            <input type="text" class="text__input text__input_error" placeholder="Placeholder">
+            <input type="text" class="text__input text-field_error" placeholder="Placeholder" id="input-id2">
             <span class="text__state text__state_error">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -51,7 +49,7 @@
                 </svg>
             </span>
         </span>
-    </label>
+    <label class="input" for="input-id2"> </label>
 </div>
 </body>
 </html>
